@@ -1,0 +1,118 @@
+/*
+Style: Color Example: Black
+*/
+/* color secondary */
+/* line 6, color-black.scss */
+.entry-comments,
+.jp-play-bar,
+.jp-volume-bar-value {
+    background-color: #000;
+}
+
+/* color primary */
+/* line 11, color-black.scss */
+a,
+label .required,
+.entry-title a:hover,
+.entry-share .sharrre .box:hover .count,
+.entry-browse li a:hover span,
+.entry-related a:hover,
+.widget a:hover,
+.widget_rss ul li a,
+.widget_tag_cloud .tagcloud a:hover,
+.widget_calendar a,
+.widget_wpb_tabs .wpb-tabs li a:hover,
+.comment-awaiting-moderation,
+#child-menu .current_page_item > a,
+ul.tabs-nav li a.active,
+.accordion .title a:hover,
+.accordion .title.active a,
+.toggle .title:hover,
+.toggle .title.active {
+    color: #000;
+}
+
+/* line 30, color-black.scss */
+input[type="submit"],
+button[type="submit"],
+#nav-header.nav-container,
+#footer-bottom #to-top,
+.entry-tags a:hover,
+.widget_calendar caption,
+.widget_wpb_tabs .wpb-tabs li a.active,
+.commentlist .reply a:hover,
+.wp-pagenavi a:hover,
+.wp-pagenavi a:active,
+.wp-pagenavi span.current,
+a.button {
+    background-color: #000;
+}
+
+@media only screen and (min-width: 720px) {
+    /* line 44, color-black.scss */
+    #nav-header .nav ul {
+        background-color: #000;
+    }
+
+    /* line 45, color-black.scss */
+    #nav-subheader .nav li.current_page_item > a,
+    #nav-subheader .nav li.current-menu-item > a,
+    #nav-subheader .nav li.current-menu-ancestor > a,
+    #nav-subheader .nav li.current-post-parent > a {
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    /* line 51, color-black.scss */
+    #nav-header .nav li.current_page_item > a,
+    #nav-header .nav li.current-menu-item > a,
+    #nav-header .nav li.current-post-parent > a {
+        color: #000;
+    }
+
+    /* line 54, color-black.scss */
+    #nav-subheader .nav li.current_page_item > a,
+    #nav-subheader .nav li.current-menu-item > a,
+    #nav-subheader .nav li.current-post-parent > a {
+        background-color: #000;
+    }
+
+    /* line 57, color-black.scss */
+    #nav-footer .nav li.current_page_item > a,
+    #nav-footer .nav li.current-menu-item > a,
+    #nav-footer .nav li.current-post-parent > a {
+        background-color: #000;
+    }
+}
+
+/* line 62, color-black.scss */
+ul.tabs-nav li a.active {
+    border-top-color: #000;
+}
+
+/* line 64, color-black.scss */
+::selection {
+    background-color: #000;
+}
+
+/* line 65, color-black.scss */
+::-moz-selection {
+    background-color: #000;
+}
+
+/* line 67, color-black.scss */
+.wp-pagenavi a {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+/* line 68, color-black.scss */
+.wp-pagenavi a:hover,
+.wp-pagenavi a:active,
+.wp-pagenavi span.current {
+    border: 1px solid #000 !important;
+}
+
+/*# sourceMappingURL=color-black.css.map */

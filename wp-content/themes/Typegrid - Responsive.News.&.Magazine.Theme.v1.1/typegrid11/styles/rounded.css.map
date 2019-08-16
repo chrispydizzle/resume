@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "mappings": "AAAA;;EAEE;;AAEF;;;sBAGuB;EAAE,kBAAkB,EAAE,IAAI;EAAE,qBAAqB,EAAE,IAAI;EAAE,aAAa,EAAE,IAAI;;;;AACnG,WAAY;EAAE,QAAQ,EAAE,MAAM;;;;AAE9B;;KAEM;EAAE,kBAAkB,EAAE,GAAG;EAAE,qBAAqB,EAAE,GAAG;EAAE,aAAa,EAAE,GAAG",
+  "sources": [
+    "rounded.scss"
+  ],
+  "names": [],
+  "file": "rounded.css"
+}

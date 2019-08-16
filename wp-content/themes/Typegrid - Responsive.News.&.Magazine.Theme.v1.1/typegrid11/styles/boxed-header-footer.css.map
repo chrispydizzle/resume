@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;EAEE;;AAEF,OAAQ;EACN,UAAU,EAAE,OAAO;EACnB,cAAc,EAAE,GAAG;;;;AAGrB,aAAc;EACZ,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;;;;AAGhB,KAAM;EACJ,cAAc,EAAE,CAAC;;;;AAGnB,WAAY;EACV,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,CAAC;EACb,aAAa,EAAE,iBAAiB",
+"sources": ["boxed-header-footer.scss"],
+"names": [],
+"file": "boxed-header-footer.css"
+}

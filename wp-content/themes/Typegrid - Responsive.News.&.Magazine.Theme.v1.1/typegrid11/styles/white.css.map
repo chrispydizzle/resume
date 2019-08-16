@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "mappings": "AAAA;;EAEE;;AAEF;UACW;EAAE,UAAU,EAAE,IAAI;;;;AAE7B;;uCAEwC;EAAE,YAAY,EAAE,OAAO;;;;AAE/D,0BAA2B;EAAE,gBAAgB,EAAE,6BAA6B;;;;AAE5E,WAAY;EAAE,UAAU,EAAE,OAAO",
+  "sources": [
+    "white.scss"
+  ],
+  "names": [],
+  "file": "white.css"
+}

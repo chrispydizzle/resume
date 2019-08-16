@@ -1,0 +1,33 @@
+<div class="wpb-popup">
+    <form id="wpb-popup-form">
+        <input name="wpb-shortcode" type="hidden" value="alert">
+
+        <div class="wpb-top fix">
+            <div class="wpb-alignleft"><input class="button cancel wpb-cancel-btn" type="reset" value="Cancel"></div>
+            <div class="wpb-alignright"><input class="button-primary savebutton" type="submit" value="Insert Shortcode">
+            </div>
+        </div><!--/top-->
+
+        <h3 class="wpb-heading">Create Alert</h3>
+
+        <div class="wpb-section">
+            <div class="wpb-row">
+                <p class="wpb-left"><label for="wpb-type">Type</label></p>
+                <p class="wpb-right">
+                    <select class="wpb-field" name="wpb-type">
+                        <option value="info">Info</option>
+                        <option value="error">Error</option>
+                        <option value="notice">Notice</option>
+                        <option value="success">Success</option>
+                        <option value="warning">Warning</option>
+                    </select>
+                </p>
+            </div>
+            <div class="wpb-row">
+                <p class="wpb-left"><label for="wpb-content">Text</label></p>
+                <p class="wpb-right"><textarea class="wpb-field" name="wpb-content"></textarea></p>
+            </div>
+        </div><!--/section-->
+
+    </form>
+</div>

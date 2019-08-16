@@ -1,0 +1,116 @@
+/*
+Style: Color Example: Orange
+*/
+/* color secondary */
+/* line 6, color-orange.scss */
+.entry-comments,
+.jp-play-bar,
+.jp-volume-bar-value {
+  background-color: #1384d3;
+}
+
+/* color primary */
+/* line 13, color-orange.scss */
+a,
+label .required,
+.entry-title a:hover,
+.entry-share .sharrre .box:hover .count,
+.entry-browse li a:hover span,
+.entry-related a:hover,
+.widget a:hover,
+.widget_rss ul li a,
+.widget_tag_cloud .tagcloud a:hover,
+.widget_calendar a,
+.widget_wpb_tabs .wpb-tabs li a:hover,
+.comment-awaiting-moderation,
+#child-menu .current_page_item > a,
+ul.tabs-nav li a.active,
+.accordion .title a:hover,
+.accordion .title.active a,
+.toggle .title:hover,
+.toggle .title.active {
+  color: #ef4423;
+}
+
+/* line 34, color-orange.scss */
+input[type="submit"],
+button[type="submit"],
+#nav-header.nav-container,
+#footer-bottom #to-top,
+.entry-tags a:hover,
+.widget_calendar caption,
+.widget_wpb_tabs .wpb-tabs li a.active,
+.commentlist .reply a:hover,
+.wp-pagenavi a:hover,
+.wp-pagenavi a:active,
+.wp-pagenavi span.current,
+a.button {
+  background-color: #ef4423;
+}
+
+@media only screen and (min-width: 720px) {
+  /* line 50, color-orange.scss */
+  #nav-header .nav ul {
+    background-color: #ef4423;
+  }
+
+  /* line 53, color-orange.scss */
+  #nav-subheader .nav li.current_page_item > a,
+  #nav-subheader .nav li.current-menu-item > a,
+  #nav-subheader .nav li.current-menu-ancestor > a,
+  #nav-subheader .nav li.current-post-parent > a {
+    color: #ef4423;
+  }
+}
+@media only screen and (max-width: 719px) {
+  /* line 62, color-orange.scss */
+  #nav-header .nav li.current_page_item > a,
+  #nav-header .nav li.current-menu-item > a,
+  #nav-header .nav li.current-post-parent > a {
+    color: #ef4423;
+  }
+
+  /* line 67, color-orange.scss */
+  #nav-subheader .nav li.current_page_item > a,
+  #nav-subheader .nav li.current-menu-item > a,
+  #nav-subheader .nav li.current-post-parent > a {
+    background-color: #ef4423;
+  }
+
+  /* line 72, color-orange.scss */
+  #nav-footer .nav li.current_page_item > a,
+  #nav-footer .nav li.current-menu-item > a,
+  #nav-footer .nav li.current-post-parent > a {
+    background-color: #ef4423;
+  }
+}
+/* line 79, color-orange.scss */
+ul.tabs-nav li a.active {
+  border-top-color: #ef4423;
+}
+
+/* line 83, color-orange.scss */
+::selection {
+  background-color: #ef4423;
+}
+
+/* line 87, color-orange.scss */
+::-moz-selection {
+  background-color: #ef4423;
+}
+
+/* line 91, color-orange.scss */
+.wp-pagenavi a {
+  color: #ef4423 !important;
+  border: 1px solid #ef4423 !important;
+  border: 1px solid rgba(239, 68, 35, 0.3) !important;
+}
+
+/* line 97, color-orange.scss */
+.wp-pagenavi a:hover,
+.wp-pagenavi a:active,
+.wp-pagenavi span.current {
+  border: 1px solid #ef4423 !important;
+}
+
+/*# sourceMappingURL=color-orange.css.map */

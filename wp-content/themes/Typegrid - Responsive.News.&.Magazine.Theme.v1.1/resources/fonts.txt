@@ -1,0 +1,10 @@
+Fonts used in this theme:
+
+Open Sans:
+http://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
+
+Fjalla One:
+http://www.google.com/fonts#UsePlace:use/Collection:Fjalla+One
+
+Gotham Medium:
+Non-free font. "Typegrid" Logotype

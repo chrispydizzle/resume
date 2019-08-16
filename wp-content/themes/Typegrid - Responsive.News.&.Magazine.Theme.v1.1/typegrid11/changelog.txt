@@ -1,0 +1,19 @@
+  Theme : Typegrid
+Version : 1.1
+ Author : WPBandit - http://wpbandit.com
+
+.: March 19 2013 (v1.1) :.
+===========================================================
+- Added basic woocommerce support
+- Added a standard blog list view for home, archive and search
+- Fixed safari font rendering bug
+- Fixed exclude highlight posts from content option
+- Fixed missing language strings
+- Fixed newsflash direction-nav z-index
+- Fixed sharrre google+ button
+- Fixed styling color bug for post navigation
+- Fixed default embeds to be responsive
+
+.: March 11 2013 (v1.0) :.
+===========================================================
+- Theme released

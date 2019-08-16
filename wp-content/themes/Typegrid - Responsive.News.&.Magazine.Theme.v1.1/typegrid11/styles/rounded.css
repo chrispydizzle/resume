@@ -1,0 +1,28 @@
+/*
+Style: Rounded
+*/
+/* line 5, rounded.scss */
+img,
+.flexslider,
+.video-container,
+.featured .entry-title {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* line 9, rounded.scss */
+.flexslider {
+    overflow: hidden;
+}
+
+/* line 11, rounded.scss */
+#nav-subheader.nav-container,
+#page-inner,
+.main {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+/*# sourceMappingURL=rounded.css.map */

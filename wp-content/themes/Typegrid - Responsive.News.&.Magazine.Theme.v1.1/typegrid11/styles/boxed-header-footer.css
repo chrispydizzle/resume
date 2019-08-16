@@ -1,0 +1,28 @@
+/*
+Style: Boxed Header & Footer
+*/
+/* line 5, boxed-header-footer.scss */
+#header {
+  background: #f9f9f9;
+  padding-bottom: 1px;
+}
+
+/* line 10, boxed-header-footer.scss */
+.body-wrapper {
+  max-width: 1122px;
+  margin: 0 auto;
+}
+
+/* line 15, boxed-header-footer.scss */
+#page {
+  padding-bottom: 0;
+}
+
+/* line 19, boxed-header-footer.scss */
+.ads-footer {
+  background: #1c1c1c;
+  border-top: 0;
+  border-bottom: 1px solid #262626;
+}
+
+/*# sourceMappingURL=boxed-header-footer.css.map */

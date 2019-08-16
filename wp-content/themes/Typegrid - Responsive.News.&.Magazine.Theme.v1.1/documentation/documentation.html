@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documentation</title>
+    <link href="assets/bootstrap.css" rel="stylesheet">
+    <link href="assets/docs.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+<div class="container">
+
+
+    <!-- Sidebar
+    ================================================== -->
+    <div id="sidebar">
+        <div class="well" style="padding: 8px 0;">
+            <ul class="nav nav-list">
+                <li class="nav-header">Table of contents</li>
+                <li><a href="#start"><span class="label color-01">01</span>Getting Started</a></li>
+                <li><a href="#install"><span class="label color-02">02</span>Installing Theme</a>
+                    <ul>
+                        <li><a href="#install-import">Demo Content</a></li>
+                        <li><a href="#install-updates">Theme Updates</a></li>
+                    </ul>
+                </li>
+                <li><a href="#options-general"><span class="label color-03">03</span>Theme Options</a>
+                    <ul>
+                        <li><a href="#options-general">General</a></li>
+                        <li><a href="#options-blog">Blog</a></li>
+                        <li><a href="#options-seo">SEO</a></li>
+                        <li><a href="#options-header">Header</a></li>
+                        <li><a href="#options-sidebar">Sidebar</a></li>
+                        <li><a href="#options-footer">Footer</a></li>
+                        <li><a href="#options-styling">Styling</a></li>
+                    </ul>
+                </li>
+                <li><a href="#modules-login"><span class="label color-04">04</span>Theme Modules</a>
+                    <ul>
+                        <li><a href="#modules-login">Login</a></li>
+                        <li><a href="#modules-maintenance">Maintenance</a></li>
+                        <li><a href="#modules-sidebar">Sidebar</a></li>
+                        <li><a href="#modules-social">Social</a></li>
+                    </ul>
+                </li>
+                <li><a href="#templates"><span class="label color-05">05</span>Page Templates</a>
+                    <ul>
+                        <li><a href="#templates-contact">Contact Page</a></li>
+                    </ul>
+                </li>
+                <li><a href="#shortcodes"><span class="label color-06">06</span>Shortcodes</a></li>
+                <li><a href="#menus"><span class="label color-07">07</span>Menus</a></li>
+                <li><a href="#managing-images"><span class="label color-08">08</span>Managing Images</a></li>
+                <li><a href="#final"><span class="label color-09">09</span>Final Notes</a></li>
+            </ul>
+        </div>
+    </div><!--/sidebar-->
+
+
+    <!-- Header
+    ================================================== -->
+    <header class="jumbotron" id="overview">
+        <h1>Typegrid</h1>
+        <p class="lead">Thanks for your purchase, your support is truly appreciated!</p>
+        <p><a href="http://wpbandit.com" target="_blank">WPBandit</a> &middot; <a href="http://wpbandit.com/forums/"
+                                                                                  target="_blank">Support Forums</a>
+            &middot; <a href="http://wpbandit.com/themes/" target="_blank">More Themes</a></p>
+    </header><!--/header-->
+
+
+    <!-- Getting Started
+    ================================================== -->
+    <section id="start">
+        <div class="page-header"><h1><span class="label color-01">01</span>Getting Started</h1></div>
+        <p>Thanks for your purchase! We know that you're excited to get your site up and running and we want to help.
+            Please take the time to read through this documentation as it will help to answer most of your questions. If
+            you encounter any issues or discover any bugs please contact us in our <a href="http://wpbandit.com/forums/"
+                                                                                      target="_blank">support forum</a>
+            so that we may help you.</p>
+
+        <h3>How To Find Your Purchase Code</h3>
+        <p>To create an account on the support forum requires your purchase code. See the picture below for help finding
+            your code.</p>
+        <p><a href="assets/images/licence.png" target="_blank"><img alt="Licence Code" src="assets/images/licence.png"
+                                                                    width="580"></a></p>
+    </section>
+
+
+    <!-- Install Theme
+    ================================================== -->
+    <section id="install">
+        <div class="page-header">
+            <h1><span class="label color-02">02</span>Installing</h1>
+        </div>
+        <p>Installing your theme is pretty easy! After downloading and uncompressing your theme you should find a file
+            named <code>Typegrid.zip</code>. This is a compressed file containing all of the required templates and
+            images required for the theme to function properly.</p>
+
+        <h3>Install Theme</h3>
+        <ol>
+            <li>Click on <strong>Themes</strong> in the Appearance Menu</li>
+            <li>Click on the <strong>Install Themes</strong> tab</li>
+            <li>Click the <strong>Upload</strong> link</li>
+            <li>Select the <code>Typegrid.zip</code> file</li>
+            <li>Click <strong>Install Now</strong></li>
+        </ol>
+        <p><img src="assets/images/wp-install-theme.png"></p>
+
+        <h3>Activate Theme</h3>
+        <ol>
+            <li>Click on <strong>Themes</strong> in the <em>Appearance Menu</em></li>
+            <li>Click on <strong>Activate</strong> under the Typegrid theme</li>
+        </ol>
+        <div class="alert alert-info">Additional Information: <a href="http://codex.wordpress.org/Using_Themes"
+                                                                 target="_blank">WordPress Codex – Using Themes</a>
+        </div>
+
+        <h3>Finding Theme Options &amp; Modules</h3>
+        <p>As soon as you've activated your theme, you will see a new link appearing at the bottom of the dashboard
+            sidebar with your theme name. This is where all of your theme options and theme modules are.</p>
+    </section>
+
+    <section id="install-import">
+        <div class="page-header">
+            <h1><span class="label color-02">02.1</span>Importing Demo Content</h1>
+        </div>
+        <p>This step is optional. If you don't want to import any extra pages and texts to your site, you can skip to
+            the next section. If you want a base similar to the demo site to work on and edit (mainly for content
+            layouts and text formats), this is for you.</p>
+        <div class="alert alert-error"><strong>Important:</strong> If your site is not a fresh install with no content,
+            but has a lot of existing content and pages on it already, it is important to remember that this file will
+            add a lot of pages (and media if you choose to import that) to your site, that you will have to edit or
+            remove.
+        </div>
+
+        <h3>Importing</h3>
+        <ol>
+            <li>Click on <strong>Import</strong> in the Tools Menu</li>
+            <li>Click on the <strong>WordPress</strong> link</li>
+            <li>Install the plugin it asks for and activate, if you haven't already installed it.</li>
+            <li>Now you should see a select button on the Import > WordPress page.</li>
+            <li>Upload the .XML file that can be found in /resources/XML/ folder of the theme-package.zip file. Choose
+                if you want to import media or not (images).
+            </li>
+            <li>Wait for the import process to finish. When it's finished it will say so.</li>
+            <li>Go to Appearance > Menus and <a href="#menus">add the menu areas</a> to for example header.</li>
+            <li>Your page should now look similar to the demo page. Refer to the <a href="#templates-front">Frontpage
+                section</a> "Setting up a Static Front Page" if you want to setup a static front page (non-blog)
+            </li>
+        </ol>
+
+    </section>
+
+    <section id="install-updates">
+        <div class="page-header">
+            <h1><span class="label color-02">02.2</span>Theme Updates</h1>
+        </div>
+        <p>If this is your first-time install, you can skip this step.</p>
+        <p>If a new version of the theme is released (for example if we add new features or fix some bugs), you need to
+            do the following to update your theme:</p>
+        <ol>
+            <li>Download the latest version from your ThemeForest "downloads" tab.</li>
+            <li>Unzip the package file and locate the theme.zip to upload.</li>
+            <li>Upload the theme and activate it (with new version number), just as you did on first-time install.</li>
+            <li>Copy over your custom.css and custom-functions.php to the new theme if you've made customizations. Your
+                admin settings will be saved.
+            </li>
+        </ol>
+        <div class="alert alert-info"><strong>Important:</strong> Your old files and theme will not be overwritten, as
+            it creates a new folder such as for example "theme12" (where "12" represents version 1.2). Please note that
+            any customizations made to files of the old theme will have to be moved over.
+        </div>
+    </section>
+
+
+    <!-- Options : General
+    ================================================== -->
+    <section id="options-general">
+        <div class="page-header">
+            <h1><span class="label color-03">03.1</span>Options: General</h1>
+        </div>
+        <h3>Theme Style</h3>
+        <p><img src="assets/images/general-theme-style.png"></p>
+        <p>Change the theme base style by selecting an option from the dropdown box.</p>
+
+        <h3>Custom Stylesheet</h3>
+        <p><img src="assets/images/general-custom-stylesheet.png"></p>
+        <p>Instead of editing style.css, enable the <code>custom.css</code> file in options. In this file you can create
+            new styles or override existing styles. By doing this, you will be able to easily install a new updated
+            version of the theme and copy over your custom styles to it. </p>
+        <div class="alert alert-info">You can edit the custom.css and other theme files directly in the dashboard, just
+            go to <strong>Appearance > Editor</strong>.
+        </div>
+
+        <h3>Favicon</h3>
+        <p><img src="assets/images/general-favicon.png"></p>
+        <p>Upload favicon by clicking the <strong>Select Image</strong> button and selecting from <em>Media Library</em>.
+            As an example, a 16x16 px .PNG image is often used.</p>
+        <p>Afterwards, select the <strong>Full Size</strong> option and click the <strong>Insert into Post</strong>
+            button.</p>
+
+        <h3>RSS Feed</h3>
+        <p><img src="assets/images/general-rss-feed.png"></p>
+        <p>If you use a service such as <a href="http://feedburner.google.com/" target="_blank">FeedBurner</a> enter
+            full URL of your feed.</p>
+
+        <h3>Analytics Script</h3>
+        <p><img src="assets/images/general-analytics-script.png"></p>
+        <p>If you use a service such as <a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a>
+            paste your tracking code in the box and set whether you want this script to load in the header or the footer
+            of your site.</p>
+    </section>
+
+
+    <!-- Options : Blog
+    ================================================== -->
+    <section id="options-blog">
+        <div class="page-header">
+            <h1><span class="label color-03">03.2</span>Options: Blog</h1>
+        </div>
+        <p>Most of the blog options are self-explaining, however we will clarify a few options to make sure they are
+            understood correctly.</p>
+        <h3>Featured Slider</h3>
+        <ul>
+            <li><strong>Enable</strong> - This is where you enable the featured post slider. You can also choose to
+                include featured posts in the content area. This means that the featured posts in the slider also will
+                be shown below in the blog list. If disabled, only the amount of visibile featured posts will be
+                excluded.
+            </li>
+            <li><strong>Heading</strong> - Optional text title above the slider. Leave blank for no title.
+            <li><strong>Category</strong> - Set the blog category that featured posts will be shown from. It is a good
+                idea to create a category called for example "Featured". Simply add this category to the posts you want
+                to feature, and when you want to remove it, you simply remove the Featured category from the post.
+            </li>
+            <li><strong>Number of Posts</strong> - Pick the the max amount of posts to show in the slider.</li>
+        </ul>
+        <div class="alert alert-info">Note that posts are ordered by date. Your most recent posts will be displayed
+            first. Also note that the slider is only shown on blog home.
+        </div>
+        <h3>Newsflash</h3>
+        <p>What we call "newsflash" is the dark block shown at the top of blog home and/or single pages. It lists most
+            discussed entries (most popular), most recent posts and recent comments. You can enable and disable them as
+            you see fit.</p>
+    </section>
+
+
+    <!-- Options : SEO
+    ================================================== -->
+    <section id="options-seo">
+        <div class="page-header">
+            <h1><span class="label color-03">03.3</span>Options: SEO</h1>
+        </div>
+
+        <h3>Title</h3>
+        <p><img src="assets/images/seo-title.png"></p>
+        <dl>
+            <dt>Site Name</dt>
+            <dd>Append the site name to the title of each post.</dd>
+            <dt>Separator</dt>
+            <dd>The separator to display between the site name and the page/post title.</dd>
+        </dl>
+
+        <h3>Home Page</h3>
+        <p><img src="assets/images/seo-home-page.png"></p>
+        <dl>
+            <dt>Title</dt>
+            <dd>Set a custom title for the home page.</dd>
+            <dt>Meta Description</dt>
+            <dd>The home page meta description.</dd>
+            <dt>Meta Keywords</dt>
+            <dd>The home page meta keywords.</dd>
+        </dl>
+
+        <h3>Robot Meta Tags</h3>
+        <p><img src="assets/images/seo-robot-meta-tags.png"></p>
+        <dl>
+            <dt><code>noindex</code></dt>
+            <dd>Do not allow search engines to index the selected page types.</dd>
+            <dt><code>noarchive</code></dt>
+            <dd>Do not allow search engines to archive the selected page types.</dd>
+            <dt><code>nofollow</code></dt>
+            <dd>Instruct search engines not to follow links on the selected page types.</dd>
+            <dt><code>noodp,noydir</code></dt>
+            <dd>If your site is listed in DMOZ or the Yahoo Directory search engines will use descriptions from these
+                sites instead of your meta description. Select the options here to prevent this.
+            </dd>
+        </dl>
+    </section>
+
+
+    <!-- Options : Header
+    ================================================== -->
+    <section id="options-header">
+        <div class="page-header">
+            <h1><span class="label color-03">03.4</span>Options: Header</h1>
+        </div>
+
+        <p>Header options are for the most part self-explaining. However, we would like to clarify the logo option.</p>
+
+        <ul>
+            <li><strong>Custom Logo</strong> - To upload your logo image, click Select Image. Then upload your image and
+                click insert into post. We suggest using a .PNG logo with transparent background. 40px height is ideal.
+            </li>
+        </ul>
+    </section>
+
+
+    <!-- Options : Sidebar
+    ================================================== -->
+    <section id="options-sidebar">
+        <div class="page-header">
+            <h1><span class="label color-03">03.5</span>Options: Sidebar</h1>
+        </div>
+        <h3>Mobile Sidebar</h3>
+        <p>Here you can enable the option to show sidebar widgets on mobile layouts. The sidebar widgets will appear
+            below the content whether you use a sidebar to the right or left.</p>
+        <p>For information on how to use unlimited sidebar widget areas, please refer to the <a href="#modules-sidebar">Theme
+            Modules: Sidebar</a> section.</p>
+    </section>
+
+
+    <!-- Options : Footer
+    ================================================== -->
+    <section id="options-footer">
+        <div class="page-header">
+            <h1><span class="label color-03">03.6</span>Options: Footer</h1>
+        </div>
+        <h3>Footer Widgets</h3>
+        <p>By enabling footer widgets, the amount of support widget columns will appear as new widget blocks in
+            Appearance > Widgets</p>
+
+        <h3>Footer Logo</h3>
+        <p>To upload your logo image, click Select Image. Then upload your image and click insert into post. We suggest
+            using a .PNG logo with transparent background. 40px-50px height is ideal, but larger works fine.</p>
+        <h3>Footer Copyright</h3>
+        <p><img src="assets/images//footer-text.png"></p>
+        <p>Replace the standard footer copyright. Your text will be wrapped in a <code>&lt;p&gt;</code> tags. The
+            WPBandit text will dissapear by itself when you enter new text.</p>
+        <p>Tip: use <code>&amp;copy;</code> for copyright sign.</p>
+
+    </section>
+
+
+    <!-- Options : Styling
+    ================================================== -->
+    <section id="options-styling">
+        <div class="page-header">
+            <h1><span class="label color-03">03.7</span>Options: Styling</h1>
+        </div>
+
+        <h3>Advanced Styling</h3>
+        <p><img src="assets/images//styling-enable.png"></p>
+        <p>The first thing you need to do to use the styling options is to enable it. This will load a
+            style-advanced.css in the theme. </p>
+
+        <h3>Theme Color</h3>
+        <ul>
+            <li><strong>Main Color</strong> - Change the base color for your theme.</li>
+            <li><strong>Secondary Color</strong> - Change the color of comment-count bubbles and audio format post
+                progress/volume bars.
+            </li>
+        </ul>
+        <h3>Body</h3>
+        <ul>
+            <li>Set the body background color and an optional background image.</li>
+        </ul>
+    </section>
+
+
+    <!-- Modules : Login
+    ================================================== -->
+    <section id="modules-login">
+        <div class="page-header">
+            <h1><span class="label color-04">04.1</span>Modules: Login</h1>
+        </div>
+
+        <h3>Enable</h3>
+        <p><img src="assets/images/module-login-enable.png"></p>
+        <p>Enable a custom login page.</p>
+
+        <h3>Logo</h3>
+        <p><img src="assets/images/module-login-logo.png"></p>
+        <p>Upload your own logo and change the logo URL. By default your login page shows a WordPress logo and links to
+            <em>wordpress.org</em>.</p>
+        <div class="alert alert-info">Note: Setting the URL to your home page is a good idea.</div>
+
+        <h3>Colors</h3>
+        <p><img src="assets/images/module-login-colors.png"></p>
+        <p>Change the background, link, and link hover colors.</p>
+
+        <h3>CSS</h3>
+        <p><img src="assets/images/module-login-css.png"></p>
+        <p>Customize the page by including your own CSS to override default WordPress styles.</p>
+    </section>
+
+
+    <!-- Modules : Maintenance
+    ================================================== -->
+    <section id="modules-maintenance">
+        <div class="page-header">
+            <h1><span class="label color-04">04.2</span>Modules: Maintenance</h1>
+        </div>
+
+        <h3>Enable Maintenance Mode</h3>
+        <p><img src="assets/images/module-maintenance.png"></p>
+        <p>Allow others to work on the site while disabling access from visitors. If you need to quickly modify a
+            template or adjust the CSS on your site this is a perfect option to use. Visitors will be temporarily
+            redirected to a maintenance page.</p>
+        <p>The access role option allows you set what type of users have access to your site.</p>
+    </section>
+
+
+    <!-- Modules : Sidebar
+    ================================================== -->
+    <section id="modules-sidebar">
+        <div class="page-header">
+            <h1><span class="label color-04">04.3</span>Modules: Sidebar</h1>
+        </div>
+
+        <p>The sidebar module makes it possible to add unlimited sidebar widget areas to your WordPress website. </p>
+        <p>This is how to use the module:</p>
+        <ol>
+            <li>First, go to the sidebar module. <strong>Themename > Theme Modules > Sidebar</strong></li>
+            <li>To create a new sidebar, give it any name you want and then click the "Add Sidebar" button. (ID is not
+                required, it will be auto-created)
+            </li>
+            <li>(Optional) Add this newly created widget area to common pages, such as Archive or Single pages.</li>
+            <li>Now we can leave the module page. Go to <strong>Appearance > Widgets</strong> to add widgets to your
+                newly created sidebar.
+            </li>
+            <li>Lastly, you can add your new sidebar to any page or post. To do so, edit the page or post where you want
+                the sidebar to be. On the right side, there is a block called "Sidebar". Select your sidebar from the
+                dropdown and update the page.
+            </li>
+            <li>All done! Create as many sidebars as you want, anywhere you want.</li>
+        </ol>
+    </section>
+
+
+    <!-- Modules : Social
+    ================================================== -->
+    <section id="modules-social">
+        <div class="page-header">
+            <h1><span class="label color-04">04.4</span>Modules: Social</h1>
+        </div>
+        <p>The social module allows you to quickly and easily manage your social media links.</p>
+
+        <h3>Create Link</h3>
+        <p>To create a new link enter the URL, set a Label, and select an Icon. As an example:</p>
+        <p><img src="assets/images/module-social-create-new-item.png"></p>
+        <ul>
+            <li><strong>URL</strong> - http://twitter.com/wpbandit</li>
+            <li><strong>Label</strong> - Twitter</li>
+            <li><strong>Icon URL</strong> - Click Twitter icon in the icon box</li>
+        </ul>
+        <p>Once you are done click the <strong>Add Item</strong> button. Links are automatically displayed in theme's
+            footer. If you make any updates be sure to click the <strong>Update</strong> button.</p>
+
+        <h3>Order Links</h3>
+        <p>Drag link items using the "bars" to reorder link items.</p>
+        <p><img src="assets/images/module-social-edit-items.png"></p>
+    </section>
+
+
+    <!-- Templates
+    ================================================== -->
+    <section id="templates">
+        <div class="page-header">
+            <h1><span class="label color-05">05</span>Page Templates</h1>
+        </div>
+        <p>To see examples of each page template, please visit our theme demo page.</p>
+        <p>To set a page template for your page, do the following:</p>
+        <ol>
+            <li>Edit or create the page you want to use.</li>
+            <li>In the dashboard, locate the second block to the right called "Page Attributes".</li>
+            <li>Find the "Template" dropdown in this block. Select the template you want to use and hit save/update.
+            </li>
+            <li>You now use the page template! All additional options, if there are any, will appear below the large
+                text field.
+            </li>
+        </ol>
+    </section>
+
+
+    <!-- Template : Contact
+    ================================================== -->
+    <section id="templates-contact">
+        <div class="page-header">
+            <h1><span class="label color-05">05.3</span>Non-template: Contact</h1>
+        </div>
+
+        <p>We recommend using the <a href="http://wordpress.org/extend/plugins/contact-form-7/" target="_blank">Contact
+            Form 7</a> plugin for your contact page. You are free to use any plugin you are comfortable with but it is
+            what we use.</p>
+
+        <h3>How To Setup Your Contact Page</h3>
+
+        <ol>
+            <li>Install and activate <a href="http://wordpress.org/extend/plugins/contact-form-7/" target="_blank">Contact
+                Form 7</a></li>
+            <li>Go to <strong>Contact</strong> in your WordPress dashboard</li>
+            <li>Edit <em>Contact form 1</em></li>
+            <li>In the form field, paste the following:<br><br>
+                <pre>
+&lt;p&gt;[text* your-name] &lt;label&gt;Your Name&lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;[email* your-email] &lt;label&gt;Your Email&lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;[text your-subject] &lt;label&gt;Subject&lt;/label&gt;&lt;/p&gt;
+
+&lt;p&gt;[textarea your-message]&lt;/p&gt;
+
+&lt;p&gt;[submit "Send Email"]&lt;/p&gt;
+</pre>
+            </li>
+            <li>Copy the code in the brown field and insert it on the page where you want your contact form.</li>
+        </ol>
+
+        <h3>Example of full contact page (as seen on demo site)</h3>
+
+        <pre>
+[googlemap address="Stockholm, Sweden" fullwidth="true" height="300" zoom="13"]
+
+[column size="one-fourth"]
+&lt;h3&gt;Contact Info&lt;/h3&gt;
+30 South Park Avenue
+San Francisco, CA 94108
+USA
+
+&lt;strong&gt;Phone:&lt;/strong&gt; (123) 456-7890
+&lt;strong&gt;Fax:&lt;/strong&gt; +08 (123) 456-7890
+&lt;strong&gt;Email:&lt;/strong&gt; contact@company.com
+&lt;strong&gt;Web:&lt;/strong&gt; companyname.com
+[/column]
+
+[column size="three-fourth" last="true"]
+&lt;h3&gt;Get in touch&lt;/h3&gt;
+[contact-form-7 id="1310" title="Contact form 1"]
+[/column]
+</pre>
+        <p>Remember to use the HTML-tab of the WordPress editor when pasting this code. You can switch back to visual
+            editor after you have inserted it.</p>
+    </section>
+
+
+    <!-- Shortcodes
+    ================================================== -->
+    <section id="shortcodes">
+        <div class="page-header">
+            <h1><span class="label color-06">06</span>Shortcodes</h1>
+        </div>
+        <p>Shortcodes are easy to add and access directly from the WordPress text editor. Locate the following icon and
+            click on it:</p>
+        <p><img src="assets/images/shortcodes.png"/></p>
+        <p>All available shortcodes will be shown in the expanded dropdown. If additional options exist for the
+            shortcode, a popup will open up. Otherwise it will be directly inserted when you click on it.</p>
+        <div class="alert alert-info">
+            Please note that this button will not show up when using the HTML-tab of the editor.
+        </div>
+    </section>
+
+
+    <!-- Menus
+    ================================================== -->
+    <section id="menus">
+        <div class="page-header">
+            <h1><span class="label color-07">07</span>Menus</h1>
+        </div>
+
+        <h3>Creating Menus</h3>
+        <p>All of our themes take advantage of WordPress Menus. To create a menu, click the <strong>Menus</strong> link
+            in the <em>Appearance Menu</em>. Enter a name and click <strong>Create Menu</strong>. If you already have a
+            menu, you can skip this step and use your existing menu.</p>
+        <p><img src="assets/images/wp-create-menu.png"></p>
+
+        <h3>Selecting a Menu</h3>
+        <p>After creating your menu(s) select it in the <strong>Theme Locations</strong> section. You can display a
+            single menu in multiple locations.</p>
+        <p><img src="assets/images/wp-menu-locations.png"></p>
+        <div class="alert alert-info">
+            Additional Information: <a href="http://codex.wordpress.org/Appearance_Menus_Screen" target="_blank">WordPress
+            Codex – Appearance Menus Screen</a>
+        </div>
+    </section>
+
+    <!-- Managing Images
+    ================================================== -->
+    <section id="managing-images">
+        <div class="page-header">
+            <h1><span class="label color-08">08</span>Managing Images</h1>
+        </div>
+
+        <h3>Uploading and usage</h3>
+        <p>Whether you are adding a portfolio item, a blog post, a gallery format post or upload images to your gallery
+            template the same method is always used in our themes.</p>
+        <ol>
+            <li>Go to the page/post/portfolio item you want to edit.</li>
+            <li>Click the <strong>Add Media</strong> button.</li>
+            <li>Upload your images.</li>
+            <li>Since you uploaded the image(s) on this page, they will now be attached to it. Our themes uses these
+                attached images and displays them.
+            </li>
+            <li>When you've uploaded your images, you can now manage your attached images by selecting this option:</li>
+            <p><img alt="" src="assets/images/media.png"/></p>
+            <li>To <strong>re-order images</strong>, simply drag them around. To remove them, simply delete them.</li>
+            <li><strong>Captions</strong> will appear in the bottom right corner on top of the image.</li>
+            <li>If you want to <strong>link the image</strong>, add your link in the description field of the image
+                (works only on some specific places).
+            </li>
+            <li>In order for the images to <strong>show up on thumbnails</strong> you need to pick one of your images
+                and click "<strong>Set Featured Image</strong>".
+            </li>
+        </ol>
+        <h3>Additional Notes</h3>
+        <ul>
+            <li>You never need to click the "Insert Image" button unless you want to add a default-type WordPress
+                gallery on the page content section. In all other cases, our themes grabs the attachments automatically.
+            </li>
+            <li>If you want to add an image in the content of the page, <strong>but it shows up in the slider as
+                well</strong>, do the following:
+            </li>
+            <ol>
+                <li>Go to <strong>Media > Add New</strong> in the WordPress sidebar.</li>
+                <li>Upload the image you don't want to show up in the gallery/slider.</li>
+                <li>Copy the direct link to this image.</li>
+                <li>Insert it on the page via the HTML-tab of the editor by using the image src tag. Example:
+                    <pre>&lt;img src="myimagelink.jpg" alt="description" /></pre>
+                    <p>(This is an area we are looking to improve for greater flexibility in a future update)</p>
+                </li>
+            </ol>
+        </ul>
+        <h3>Featured Image on Regular Pages</h3>
+        <p>If you upload and set an image as featured on a regular page, it will show up in the header. Image captions
+            will be large-text, centered on top of the image. Image description will show up in a small box below the
+            caption.</p>
+    </section>
+
+    <!-- More
+    ================================================== -->
+    <section id="final">
+        <div class="page-header">
+            <h1><span class="label color-09">09</span>Final Notes</h1>
+        </div>
+
+        <p>Things which we have not yet covered in this documentation are most likely standard WordPress features. Here
+            is some more useful information.</p>
+        <p>Questions about how to use images? Refer to the <a href="#managing-images">Managing Images</a> section.</p>
+
+        <h3>Adding items to your sidebars - widgets</h3>
+        <p>To add items to your sidebars, you need to use WordPress widgets. In the WordPress dashboard you need to go
+            to Appearance > Widgets to edit your sidebars.</p>
+        <p>To insert whatever code or text you want in the sidebar, simply use one or multiple "Text" widget blocks.
+            This widget will give you a textfield that you can add anything to, including text, html and shortcodes.</p>
+        <div class="alert alert-info">
+            Learn more: <a href="http://en.support.wordpress.com/widgets/" target="_blank">WordPress – Using Widgets</a>
+        </div>
+
+        <h3>Uploading and managing images</h3>
+        <p>Images are a big part of most themes, and we use WordPress default gallery functionality for most image
+            features. Read more about media uploads and usage below.</p>
+        <div class="alert alert-info">
+            Learn more: <a href="http://en.support.wordpress.com/assets/images/gallery/" target="_blank">WordPress –
+            Using Media Uploader</a>
+        </div>
+
+        <h3>Regenerating thumbnail-sizes</h3>
+        <p>If you used another theme for your website before changing, you most likely will see that old thumbnails are
+            of the wrong size. This is because most themes have custom thumbnail sizes. In order to easily fix this, all
+            you need to do is download, activate and run a plugin called "Regenerate Thumbnails".</p>
+        <div class="alert alert-info">
+            Download plugin: <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/" target="_blank">Plugin
+            - Regenerate Thumbnails</a>
+        </div>
+
+        <h3>Better blog pagination</h3>
+        <p>While many are happy with the "Next" and "Previous" links at the bottom of the blog, archive and search pages
+            - others want a better pagination. This is why all of our themes support the plugin WP-PageNavi, which
+            solves this issue. Install and activate it, and it will work right away.</p>
+        <div class="alert alert-info">
+            Download plugin: <a href="http://wordpress.org/extend/plugins/wp-pagenavi/">Plugin - WP-PageNavi</a>
+        </div>
+
+        <h3>Changing theme language</h3>
+        <p>In order to change language of your <strong>theme</strong> you need to edit the language .pot file in the
+            /languages/ folder of the theme. This can be easily done with a program such as <a
+                    href="http://www.poedit.net/download.php" target="_blank">PoEdit</a>. Your favourite text editor
+            should also work, such as <a href="http://notepad-plus-plus.org/download/v6.1.4.html" target="_blank">Notepad++</a>.
+        </p>
+
+    </section>
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2012 <a href="http://wpbandit.com">WPBandit</a>. All rights reserved. </p>
+    </footer>
+
+</div><!--/container -->
+</body>
+</html>

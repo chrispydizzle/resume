@@ -1,0 +1,159 @@
+body {
+    background: #eee;
+    padding-top: 0;
+}
+
+header, section {
+    width: 580px;
+}
+
+section {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    margin-left: -60px;
+    border-top: 10px solid #eee;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section p,
+section li {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+section > ul,
+section > ol {
+    margin-bottom: 20px;
+}
+
+section img {
+    border: 1px solid #ddd;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section dt,
+section dd {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+section dd {
+    margin-left: 0;
+}
+
+section h3 {
+    margin: 18px 0;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #eee;
+}
+
+section h5 {
+    font-size: 15px;
+}
+
+footer {
+    padding-top: 60px;
+}
+
+#sidebar {
+    width: 180px;
+    float: right;
+    position: fixed;
+    margin-left: 640px;
+    margin-top: -40px;
+}
+
+#sidebar .well {
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+#sidebar span.label {
+    float: left;
+    margin-right: 6px;
+}
+
+#sidebar .nav-list > li > ul > li {
+    color: #999;
+}
+
+span.label.color-01 {
+    background-color: #468847;
+}
+
+span.label.color-02 {
+    background-color: #3a87ad;
+}
+
+span.label.color-03 {
+    background-color: #b94a48;
+}
+
+span.label.color-04 {
+    background-color: #f89406;
+}
+
+span.label.color-05 {
+    background-color: #594688;
+}
+
+span.label.color-06 {
+    background-color: #32c2b3;
+}
+
+.container {
+    background: #fff;
+    padding: 40px 60px 60px 60px;
+    width: 800px;
+    border: 1px solid #d5d5d5;
+    border-top: none;
+    border-bottom: none;
+    -moz-box-shadow: 5px 5px 0 #e5e5e5, -5px 5px 0 #e5e5e5, -5px -5px 0 #e5e5e5, 5px -5px 0 #e5e5e5;
+    -webkit-box-shadow: 5px 5px 0 #e5e5e5, -5px 5px 0 #e5e5e5, -5px -5px 0 #e5e5e5, 5px -5px 0 #e5e5e5;
+    box-shadow: 5px 5px 0 #e5e5e5, -5px 5px 0 #e5e5e5, -5px -5px 0 #e5e5e5, 5px -5px 0 #e5e5e5;
+}
+
+.page-header h1 {
+    color: #000;
+    font-size: 40px;
+}
+
+.page-header h1 span {
+    padding: 10px 12px;
+}
+
+section span.label {
+    position: absolute;
+    left: -20px;
+    top: 70px;
+    font-size: 17px;
+}
+
+.jumbotron {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.jumbotron h1 {
+    color: #000;
+    margin-bottom: 9px;
+    font-size: 81px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.jumbotron p {
+    margin-bottom: 18px;
+    font-weight: 300;
+}
+
+

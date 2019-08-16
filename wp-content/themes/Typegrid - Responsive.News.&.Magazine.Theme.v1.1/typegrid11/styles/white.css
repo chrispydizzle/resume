@@ -1,0 +1,27 @@
+/*
+Style: White
+*/
+/* line 5, white.scss */
+body,
+.newsflash {
+    background: #fff;
+}
+
+/* line 8, white.scss */
+.newsflash,
+.newsflash li.article:nth-child(2) .pad,
+.newsflash li.article:nth-child(3) .pad {
+    border-color: #f6f6f6;
+}
+
+/* line 12, white.scss */
+.newsflash .overflow .fade {
+    background-image: url(white/newsflash-fade.png);
+}
+
+/* line 14, white.scss */
+.ads-header {
+    background: #262626;
+}
+
+/*# sourceMappingURL=white.css.map */
