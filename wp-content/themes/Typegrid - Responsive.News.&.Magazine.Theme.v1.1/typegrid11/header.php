@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]>				<html class="no-js ie ie6" <?php language_attributes(); ?>> <![endif]-->
-<!--[if IE 7 ]>					<html class="no-js ie ie7" <?php language_attributes(); ?>> <![endif]-->
-<!--[if IE 8 ]>					<html class="no-js ie ie8" <?php language_attributes(); ?>> <![endif]-->
+<!--[if lt IE 7 ]>
+<html class="no-js ie ie6" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie ie7" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie ie8" <?php language_attributes(); ?>> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 
@@ -15,18 +18,16 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
     <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic|Fjalla+One'
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic|Fjalla+One'
           rel='stylesheet' type='text/css'>
 
     <!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/ie/selectivizr.js"></script>
-	<![endif]-->
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/ie/selectivizr.js"></script>
+    <![endif]-->
 
 	<?php wp_head(); ?>
 </head>
-<a style="position: absolute;left: -5000px;" href="http://ventusbilisim.com.tr/tr/Services/Detail/yazilim">yazilim</a><a
-        style="position: absolute;left: -5000px;" href="http://ventusbilisim.com.tr/">web tasarim</a>
 
 <body <?php body_class(); ?>>
 
@@ -72,7 +73,7 @@
 
 				<?php if ( ! wpb_option( 'disable-header-social' ) ): ?>
 					<?php echo wpb_social_media_links( array(
-						'id' => 'header-social',
+						'id'    => 'header-social',
 						'class' => 'social-module'
 					) ); ?>
 				<?php endif; ?>
