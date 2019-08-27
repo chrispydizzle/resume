@@ -114,3 +114,5 @@ gen
 /wp-content/themes/WildCommunity - BuddyPress.Theme.v1.1.5/
 /wp-content/upgrade/
 .sass-cache/
+/wp-includes/
+/wp-admin/
