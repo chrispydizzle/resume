@@ -121,3 +121,5 @@ gen
 /wp-includes/
 /wp-admin/
 !/.gitignore
+readme.html
+license.txt
